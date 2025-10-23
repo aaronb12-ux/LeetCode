@@ -1,3 +1,4 @@
+'''
 Split Array Largest Sum #410
 Solution space binary search problem. This is known because we are “minimizing a max”. 
 We first declare our left and right pointer where left = max(arr) and right = sum(arr). 
@@ -11,6 +12,7 @@ We return left.
 Time Complexity: O(n log(s)) where n is len(nums) and s is the greatest value in our solution space, so sum(arr)
 Algorithms: Binary Search on Solution Space
 Data Structures: array
+'''
 
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
